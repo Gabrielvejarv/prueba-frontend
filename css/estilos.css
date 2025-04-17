@@ -9,9 +9,9 @@ body {
   }
 
 
-    /*carrusel*/
+    /*carrusel (reucerda que más de 200 es mucho)*/
   .carousel-item img {
-    max-height: 400px;
+    max-height: 180px;
     object-fit: cover;
     width: 100%;
     border-radius: 10px;
