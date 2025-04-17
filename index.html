@@ -274,7 +274,8 @@
                   <!-- Sucursal 1: Esmeralda -->
                   <div class="col">
                     <div class="card h-100">
-                      <img src="imagenes/sucursal1.jpg" class="card-img-top" alt="Sucursal Esmeralda">
+                      <img src="imagenes/sucursalE1.jpg" class="card-img-top" alt="Sucursal Esmeralda">
+                      <img src="imagenes/sucursalE2.jpg" class="card-img-top" alt="Sucursal Esmeralda 2">
                       <div class="card-body">
                         <h5 class="card-title">Sucursal Esmeralda</h5>
                         <p class="card-text">
@@ -289,7 +290,8 @@
                   <!-- Sucursal 2: Isla Teja -->
                   <div class="col">
                     <div class="card h-100">
-                      <img src="imagenes/sucursal2.jpg" class="card-img-top" alt="Sucursal Isla Teja">
+                      <img src="imagenes/SucusalT1.jpg" class="card-img-top" alt="Sucursal Isla Teja">
+                      <img src="imagenes/SucursalT2.jpg" class="card-img-top" alt="Sucursal Isla Teja 2">
                       <div class="card-body">
                         <h5 class="card-title">Sucursal Isla Teja</h5>
                         <p class="card-text">
@@ -304,7 +306,8 @@
                   <!-- Sucursal 3: Las Ánimas -->
                   <div class="col">
                     <div class="card h-100">
-                      <img src="imagenes/sucursal3.jpg" class="card-img-top" alt="Sucursal Las Ánimas">
+                      <img src="imagenes/sucursalA.jpg" class="card-img-top" alt="Sucursal Las Ánimas">
+                      <img src="imagenes/SucuarsalA2.jpg" class="card-img-top" alt="Sucursal las Animas 2">
                       <div class="card-body">
                         <h5 class="card-title">Sucursal Las Ánimas</h5>
                         <p class="card-text">
@@ -319,6 +322,49 @@
                 </div>
               </div>
           
+
+              <!-- Formulario -->
+              <div class="container mt-5 mb-5" id="contacto">
+                <h2 class="text-center mb-4">Contáctanos</h2>
+                <form>
+                  <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Tu nombre completo" required>
+                  </div>
+              
+                  <div class="mb-3">
+                    <label for="correo" class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control" id="correo" placeholder="nombre@ejemplo.com" required>
+                  </div>
+              
+                  <div class="mb-3">
+                    <label for="telefono" class="form-label">Teléfono</label>
+                    <input type="tel" class="form-control" id="telefono" placeholder="+56 9 1234 5678">
+                  </div>
+              
+                  
+                  <div class="mb-3">
+                    <label class="form-label d-block">¿Este mensaje es un reclamo?</label>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="reclamo" id="reclamo-si" value="sí" required>
+                      <label class="form-check-label" for="reclamo-si">Sí</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="reclamo" id="reclamo-no" value="no">
+                      <label class="form-check-label" for="reclamo-no">No</label>
+                    </div>
+                  </div>
+              
+                  <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu consulta aquí..." required></textarea>
+                  </div>
+              
+                  <div class="d-grid">
+                    <button type="submit" class="btn btn-success">Enviar</button>
+                  </div>
+                </form>
+              </div>
 
   <!-- BT JS -->>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
